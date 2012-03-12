@@ -33,6 +33,7 @@ public:
 	FotoBewerker();
 	virtual ~FotoBewerker();
 
+	void showFotoScherm(); // laat FotoScherm zien
 	void keyPressEvent( int keyCode, int nativeCode );
 };
 
